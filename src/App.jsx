@@ -5,12 +5,14 @@ import PageLayout from "./Layouts/PageLayout/PageLayout"
 
 function App() {
   return (
-    <PageLayout>
+    <>
+      <PageLayout>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/auth' element={<AuthPage />} />
       </Routes>
-    </PageLayout>
+      </PageLayout>
+    </>
   );
 }
 
